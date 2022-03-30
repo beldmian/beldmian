@@ -18,3 +18,16 @@ More about me and my projects on [my portfolio website](https://beldmian.github.
 ![Beldmian's github stats](https://github-readme-stats.vercel.app/api?username=beldmian&theme=nord&hide=prs,issues)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=beldmian&layout=compact&theme=nord)
+
+## Hard projects list
+
+- [ ] Compiler
+- [ ] Allocator
+- [ ] Garbage collector
+- [ ] Database
+- [ ] Virtual machine
+- [x] Chat 
+- [ ] Text editor
+- [ ] Web server
+- [ ] Shell
+- [ ] Web framework
