@@ -1,6 +1,6 @@
 # Hello, I'm Belousov Dmitry! 👋
 
-More about me and my projects on [my portfolio website](https://beldmian.github.io/portfolio)
+More about me and my projects on [my portfolio website](http://beldmian.ru)
 
 ## `whoami`?
 
@@ -13,16 +13,3 @@ More about me and my projects on [my portfolio website](https://beldmian.github.
 - Won some competitions
 - Made open source things...
 - ...and some private 🤐
-
-## Hard projects list
-
-- [ ] Compiler
-- [ ] Allocator
-- [ ] Garbage collector
-- [ ] Database
-- [ ] Virtual machine
-- [x] Chat 
-- [ ] Text editor
-- [ ] Web server
-- [ ] Shell
-- [ ] Web framework
