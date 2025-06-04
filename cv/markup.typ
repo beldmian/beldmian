@@ -1,9 +1,9 @@
 #let link_color = rgb("#8C271E")
 #let comment_color = rgb("#A2A79E")
 #let text_color = rgb("#000000")
-#let main_heading_color = rgb("#276FBF")
-#let second_heading_color = rgb("#276FBF")
-#let third_heading_color = rgb("#091540")
+#let main_heading_color = rgb("#F95322")
+#let second_heading_color = rgb("#F95322")
+#let third_heading_color = rgb("#220e08")
 #let bg_color = rgb("#ffffff")
 #let selection_bg_color = rgb("#ffffff")
 
