@@ -13,11 +13,12 @@
   (
     "Middle Golang разработчик",
     "АО \"НПО \"Эшелон\"",
-    "2023---н.в.",
+    "2023-н.в.",
     (
       "Участие в разработке программных продуктов в области информационной и компьютерной безопасности на языке программирования Go",
       "Разработка и оптимизация механизмов сбора данных из открытых источников",
     ),
+    ()
   ),
   // (
   //   "Помощник преподавателя",
@@ -33,12 +34,17 @@
 #let non_commercial_experiences = (
   (
     "Backend разработчик",
-    "Github / Open Source",
-    "2017---н.в.",
+    "Open Source",
+    "2017-н.в.",
     (
       "Участие в хакатонах (1 место на Hack The Railway 2021, 1 место на VTB API Hack 2022, etc)",
-      "Разработка Open Source проектов",
+      "Разработка собственных проектов и внесение изменений в крупные проекты",
     ),
+    (
+      ("https://github.com/google/cel-go/pull/1199", "google/cel-go"),
+      ("https://github.com/beldmian/kuznechik", "beldmian/kuznechik"),
+      ("https://github.com/beldmian/kuznechik.zig", "beldmian/kuznechik.zig"),
+    )
   ),
 )
 

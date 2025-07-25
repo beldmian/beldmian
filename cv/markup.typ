@@ -45,7 +45,7 @@
 
   #show heading.where(level: 3): it => emph(text(fill: third_heading_color)[#it])
 
-  #let work_exp(name, company, years, tasks) = [
+  #let work_exp(name, company, years, tasks, links) = [
     #grid(
       columns: (1fr, auto),
       gutter: 1em,
@@ -60,6 +60,15 @@
     #for (task) in tasks [
       - #task
     ]
+    #if links.len() > 0 [
+    | #{
+      let result = ()
+      for i in range(links.len()) {
+        let link_item = links.at(i)
+        result.push(link(link_item.at(0))[#link_item.at(1)])
+      }
+      result.join([ \+ ])
+    }]
   ]
 
   #let education(name, years, comment) = [
@@ -134,6 +143,7 @@
           [#exp.at(1)],
           [#exp.at(2)],
           exp.at(3),
+          exp.at(4),
         )),
         text(fill: comment_color)[\/\* #non_commercial_experience \*\/],
         ..non_commercial_experiences.map(exp => work_exp(
@@ -141,6 +151,7 @@
           [#exp.at(1)],
           [#exp.at(2)],
           exp.at(3),
+          exp.at(4),
         )),
       )
 
